@@ -1,0 +1,25 @@
+import 'package:auto_route/auto_route.dart';
+import 'package:easy_localization/easy_localization.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:gap/gap.dart';
+import 'package:image_picker/image_picker.dart';
+import 'package:valu_sales/core/helpers/enums.dart';
+import 'package:valu_sales/core/helpers/helper_dialogs.dart';
+import 'package:valu_sales/core/injection/injection.dart';
+import 'package:valu_sales/core/widgets/shared_widgets.imports.dart';
+import 'package:valu_sales/features/home/presentation/bloc/home_stepper/home_stepper_bloc.dart';
+import 'package:valu_sales/core/blocs/upload_media/upload_media_bloc.dart';
+import 'package:valu_sales/features/home/presentation/pages/sub_screens/calculat_limit/presentation/bloc/calculate_limit/calculate_limit_bloc.dart';
+import 'package:valu_sales/features/home/presentation/pages/sub_screens/calculat_limit/presentation/bloc/decrease_limit/decrease_limit_bloc.dart';
+import 'package:valu_sales/features/home/presentation/pages/sub_screens/calculat_limit/presentation/bloc/reject_customer/reject_customer_bloc.dart';
+import 'package:valu_sales/features/home/presentation/pages/sub_screens/calculat_limit/presentation/widgets/calculate_limit_widgets.imports.dart';
+import 'package:valu_sales/features/splash/data/models/app_configuration/app_config.model.dart';
+import 'package:valu_sales/translation/locale_keys.g.dart';
+import 'package:valu_ui_kit/app_bars/back_app_bar.dart';
+import 'package:valu_ui_kit/buttons/button_index.dart';
+import 'package:valu_ui_kit/buttons/valu_cancel_button.dart';
+import 'package:valu_ui_kit/buttons/valu_cta_button.dart';
+
+part 'calculate_limit.dart';
+part 'decrease_limit_screen.dart';
+part 'reject_customer_screen.dart';

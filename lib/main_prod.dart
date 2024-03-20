@@ -1,0 +1,6 @@
+import 'package:valu_sales/core/environments/prod_environment.dart';
+import 'package:valu_sales/main.dart' as app;
+
+main() {
+  app.main(environment: ProdEnvironment());
+}

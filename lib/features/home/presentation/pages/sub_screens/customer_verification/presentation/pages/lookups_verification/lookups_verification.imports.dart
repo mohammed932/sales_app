@@ -1,0 +1,22 @@
+import 'package:easy_localization/easy_localization.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:gap/gap.dart';
+import 'package:valu_sales/core/extentions/date.extention.dart';
+import 'package:valu_sales/core/helpers/enums.dart';
+import 'package:valu_sales/core/helpers/helper_dialogs.dart';
+import 'package:valu_sales/core/injection/injection.dart';
+import 'package:valu_sales/features/home/presentation/bloc/home_stepper/home_stepper_bloc.dart';
+import 'package:valu_sales/features/home/presentation/pages/sub_screens/calculat_limit/presentation/bloc/calculate_limit/calculate_limit_bloc.dart';
+import 'package:valu_sales/features/home/presentation/pages/sub_screens/customer_verification/presentation/pages/lookups_verification/bloc/additional_lookup_bloc/addtional_lookup_bloc.dart';
+import 'package:valu_sales/features/home/presentation/pages/sub_screens/customer_verification/presentation/pages/lookups_verification/bloc/lookups_verification_bloc/lookups_verification_bloc.dart';
+import 'package:valu_sales/features/home/presentation/pages/sub_screens/customer_verification/presentation/pages/lookups_verification/widgets/lookups_verification_widgets.imports.dart';
+import 'package:valu_sales/core/services/customer_service.dart';
+import 'package:valu_sales/features/user_status/data/models/response/user_status/user_status.model.dart';
+import 'package:valu_sales/translation/locale_keys.g.dart';
+import 'package:valu_ui_kit/app_bars/back_app_bar.dart';
+import 'package:valu_ui_kit/buttons/button_index.dart';
+import 'package:valu_ui_kit/buttons/valu_cta_button.dart';
+import 'package:valu_ui_kit/inputs/date_text_field.dart';
+import 'package:valu_ui_kit/inputs/regular_text_field.dart';
+
+part 'lookups_verification.dart';

@@ -1,0 +1,19 @@
+import 'package:easy_localization/easy_localization.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:gap/gap.dart';
+import 'package:valu_sales/core/constants/app_icons.dart';
+import 'package:valu_sales/core/helpers/enums.dart';
+import 'package:valu_sales/core/helpers/helper_dialogs.dart';
+import 'package:valu_sales/core/helpers/utils.dart';
+import 'package:valu_sales/features/home/data/models/response/area/area.model.dart';
+import 'package:valu_sales/features/home/data/models/response/governate/governate.model.dart';
+import 'package:valu_sales/features/home/presentation/bloc/governate/governate_dropdown_bloc.dart';
+import 'package:valu_sales/features/home/presentation/pages/sub_screens/calculat_limit/presentation/bloc/calculate_limit/calculate_limit_bloc.dart';
+import 'package:valu_sales/translation/locale_keys.g.dart';
+import 'package:valu_ui_kit/buttons/button_index.dart';
+import 'package:valu_ui_kit/inputs/drop_down_text_field.dart';
+import 'package:valu_ui_kit/sheets/drop_down_item.dart';
+
+part 'area_dropdown.dart';
+part 'governate_dropdown.dart';
+part 'limit_info_card.dart';

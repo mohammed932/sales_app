@@ -1,0 +1,22 @@
+import 'package:auto_route/auto_route.dart';
+import 'package:easy_localization/easy_localization.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:gap/gap.dart';
+import 'package:valu_sales/core/constants/app_icons.dart';
+import 'package:valu_sales/core/extentions/string.extention.dart';
+import 'package:valu_sales/core/helpers/enums.dart';
+import 'package:valu_sales/core/helpers/helper_dialogs.dart';
+import 'package:valu_sales/core/helpers/utils.dart';
+import 'package:valu_sales/core/injection/injection.dart';
+import 'package:valu_sales/core/services/agent_service.dart';
+import 'package:valu_sales/core/router/router.dart';
+import 'package:valu_sales/core/widgets/name_shortcut.dart';
+import 'package:valu_sales/features/user_status/data/models/response/user_status/user_status.model.dart';
+import 'package:valu_sales/features/user_status/presentation/bloc/user_status_bloc.dart';
+import 'package:valu_sales/features/user_status/presentation/pages/widgets/user_status_widgets.imports.dart';
+import 'package:valu_sales/translation/locale_keys.g.dart';
+import 'package:valu_ui_kit/buttons/button_index.dart';
+import 'package:valu_ui_kit/buttons/valu_cta_button.dart';
+import 'package:valu_ui_kit/inputs/phone_number_text_field.dart';
+
+part 'user_status.dart';

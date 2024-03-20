@@ -1,0 +1,19 @@
+import 'package:easy_localization/easy_localization.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:gap/gap.dart';
+import 'package:image_picker/image_picker.dart';
+import 'package:valu_sales/core/helpers/enums.dart';
+import 'package:valu_sales/core/helpers/helper_dialogs.dart';
+import 'package:valu_sales/core/injection/injection.dart';
+import 'package:valu_sales/core/models/media_data/media_data.model.dart';
+import 'package:valu_sales/core/widgets/shared_widgets.imports.dart';
+import 'package:valu_sales/features/home/presentation/bloc/home_stepper/home_stepper_bloc.dart';
+import 'package:valu_sales/core/blocs/upload_media/upload_media_bloc.dart';
+import 'package:valu_sales/features/home/presentation/pages/sub_screens/customer_verification/presentation/pages/validate_national_card/bloc/validate_national_card/validate_national_card_bloc.dart';
+import 'package:valu_sales/features/home/presentation/pages/sub_screens/customer_verification/presentation/bloc/home_verification/home_verification_bloc.dart';
+import 'package:valu_sales/translation/locale_keys.g.dart';
+import 'package:valu_ui_kit/app_bars/back_app_bar.dart';
+import 'package:valu_ui_kit/buttons/button_index.dart';
+import 'package:valu_ui_kit/buttons/valu_cta_button.dart';
+
+part 'retake_national_card.dart';
